@@ -14,13 +14,7 @@ print("\nPrime Number Check")
 print("------------------")
 
 if is_prime:
-    print(f"{num} is a Prime Number")
+    print(num, "is a  Prime Number")
 else:
-    print(f"{num} is Not a Prime Number")
-
-if num > 0:
-    print("The entered number is Positive")
-elif num < 0:
-    print("The entered number is Negative")
-else:
-    print("The entered number is Zero")
+    print(num, "is Not a Prime Number")
+    
