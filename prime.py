@@ -10,8 +10,17 @@ else:
             is_prime = False
             break
 
+print("\nPrime Number Check")
+print("------------------")
+
 if is_prime:
-    print("printed number is a  Prime")
+    print(f"{num} is a Prime Number")
 else:
-    print("printed number is Not a Prime")
-    
+    print(f"{num} is Not a Prime Number")
+
+if num > 0:
+    print("The entered number is Positive")
+elif num < 0:
+    print("The entered number is Negative")
+else:
+    print("The entered number is Zero")
