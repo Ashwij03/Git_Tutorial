@@ -3,3 +3,9 @@ b = int(input("Enter second number: "))
 
 print("Sum =", a + b)
 print("Sub =", a - b)
+print("Mul =", a * b)
+
+if b != 0:
+    print("Div =", a / b)
+else:
+    print("Division by zero is not allowed")
