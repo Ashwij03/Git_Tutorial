@@ -24,6 +24,8 @@ while True:
         print("Exiting Task Manager...")
         break
 
+    tasks.append(task)
+
 print("\nTotal Tasks:", len(tasks))
 for t in tasks:
     print("-", t)

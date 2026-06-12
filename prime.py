@@ -11,7 +11,7 @@ else:
             break
 
 if is_prime:
-    print("printed number is a  Prime")
+    print(num, "is a  Prime Number")
 else:
-    print("printed number is Not a Prime")
+    print(num, "is Not a Prime Number")
     
