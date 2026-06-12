@@ -14,7 +14,7 @@ print("\nPrime Number Check")
 print("------------------")
 
 if is_prime:
-    print(num, "is a  Prime Number")
+    print(num, "is a Valid Prime Number")
 else:
     print(num, "is Not a Prime Number")
     
