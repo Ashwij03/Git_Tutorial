@@ -24,11 +24,6 @@ while True:
         print("Exiting Task Manager...")
         break
 
-    else:
-        print("Invalid choice. Please try again.")
-    elif choice == "4":
-    print("Exiting Task Manager...")
-    break
-    
-   else:
-    print("Invalid choice. please try again.")
+print("\nTotal Tasks:", len(tasks))
+for t in tasks:
+    print("-", t)
