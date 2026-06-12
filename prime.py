@@ -14,3 +14,4 @@ if is_prime:
     print("printed number is a  Prime")
 else:
     print("printed number is Not a Prime")
+    
