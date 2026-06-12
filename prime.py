@@ -10,6 +10,9 @@ else:
             is_prime = False
             break
 
+print("\nPrime Number Check")
+print("------------------")
+
 if is_prime:
     print(num, "is a  Prime Number")
 else:
