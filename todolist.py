@@ -8,6 +8,6 @@ while True:
 
     tasks.append(task)
 
-print("\nYour Tasks:")
+print("\nTotal Tasks:", len(tasks))
 for t in tasks:
     print("-", t)
